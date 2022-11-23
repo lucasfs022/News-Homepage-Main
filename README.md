@@ -13,9 +13,6 @@
 ## Overview
 
 Este é o resultado do desafio [News homepage challenge](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl/hub/news-homepage-gwLqaA8hHH) do frontend mentor. Este desafio consiste em recriar um site realista de notícias sobre tecnologia.
-
-Projeto ainda em construção, faltando somente incluir os eventos em javascript.
-
 ### Desafio
 
 Os usuários devem:
@@ -38,7 +35,6 @@ Os usuários devem:
 - CSS custom properties;
 - Flexbox;
 - Javascript;
-- CSS Animations.
 
 ## Autor
 

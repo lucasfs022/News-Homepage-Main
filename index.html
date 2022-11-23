@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Frontend Mentor | News homepage</title>
 </head>
-<body>
+<body class="overlay">
 
     <header class="header container">
         <img src="./assets/images/logo.svg" alt="logo" class="logo">
@@ -21,26 +21,34 @@
                 <li class="nav-items"><a href="#">Trending</a></li>
                 <li class="nav-items"><a href="#">Categories</a></li>
             </ul>
+
+            <div class="toggle">
+                <img src="./assets/images/icon-menu.svg" alt="hamburguer menu" class="icon-menu">
+            </div>
+
+
+            <div class="menu-mobile">
+
+                <img src="./assets/images/icon-menu-close.svg" alt="close menu" class="close-icon">
+
+                <ul class="mobile-nav-list">
+                    <li class="mobile-nav-items"><a href="#">Home</a></li>
+                    <li class="mobile-nav-items"><a href="#">New</a></li>
+                    <li class="mobile-nav-items"><a href="#">Popular</a></li>
+                    <li class="mobile-nav-items"><a href="#">Trending</a></li>
+                    <li class="mobile-nav-items"><a href="#">Categories</a></li>
+                </ul>
+            </div>
+
+
         </nav>
-
-        <img src="./assets/images/icon-menu.svg" alt="hamburguer menu" class="icon-menu">
-
-        <!-- <nav class="menu-mobile">
-            <ul class="mobile-nav-list">
-                <li class="mobile-nav-items"><a href="#">Home</a></li>
-                <li class="mobile-nav-items"><a href="#">New</a></li>
-                <li class="mobile-nav-items"><a href="#">Popular</a></li>
-                <li class="mobile-nav-items"><a href="#">Trending</a></li>
-                <li class="mobile-nav-items"><a href="#">Categories</a></li>
-            </ul>
-        </nav> -->
 
     </header>
 
     <main>
         <section class="grid container">
-            <img src="./assets/images/image-web-3-desktop.jpg" alt="banner image" class="banner">
-            <!-- <img src="./assets/images/image-web-3-mobile.jpg" alt="banner image" class="banner"> -->
+            <div class="banner-img"></div>
+            
             <h1>The Bright Future of Web 3.0?</h1>
             <div class="read-more">
                 <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
@@ -67,8 +75,6 @@
 
             <!-- TOPICS -->
 
-        <!-- <article class="topics container"> -->
-            <!-- <div class="topics-container"> -->
             <div class="topic topic1">
                 <img src="./assets/images/image-retro-pcs.jpg" alt="Retro Computer">
                 <div class="topic-info">
@@ -95,8 +101,6 @@
                     <p>How the pandemic has sparked fresh opportunities.</p>
                 </div>
             </div>
-            <!-- </div> -->
-        <!-- </article> -->
             
         </section>
         
@@ -108,6 +112,8 @@
             Coded by <a href="https://github.com/lucasfs022" target="_blank">Lucas Silva</a>.
         </div>
     </footer>
+
+    <script src="./script.js"></script>
  
 </body>
 </html>
